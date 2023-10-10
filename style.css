@@ -1,0 +1,106 @@
+*{
+    color: white;
+    margin: 0px;
+}
+
+#card {
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    background-size: cover;
+    margin: 50px auto;
+    background: linear-gradient(to top right, rgb(12, 211, 211), #e00b64);
+    box-shadow: 10px 10px 50px black;
+
+}
+
+#upper {
+    width: 90%;
+    height: 50px;
+    margin: 20px auto 0px;
+    padding: 20px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input {
+    width: 70%;
+    height: 30px;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    outline: none;
+    color: black;
+    box-shadow: 29px 8px 28px black;
+    text-indent: 20px;
+    color: rgb(83, 80, 80);
+
+}
+
+#btn {
+    height: 32px;
+    background-color: white;
+    border-radius: 0px 25px 25px 0px;
+    width: 50px;
+    border: none;
+}
+
+#btn img{
+    width: 20px;
+}
+
+#middle {
+    /* border: 2px solid green; */
+    /* width: 90%; */
+    height: 280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img{
+    width: 40%;
+    height: auto;
+}
+
+#temperature {
+    font-size: 80px;
+    /* border: 1px solid red; */
+    /* width: 90%; */
+}
+
+#city {
+    font-size: 35px;
+    /* border: 1px solid red; */
+    /* width: 90%; */
+}
+
+#lower {
+    width: 90%;
+    height: 100px;
+    margin: 10px auto 0px;
+    display: flex;
+    /* border: 2px solid red; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.lower_values {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    /* border: 2px solid; */
+}
+
+#humidity,#windspeed{
+    font-size: 30px;
+}
+
+h4{
+    margin: 5px 0px;
+    padding: 5px 0px;
+    /* border: 2px solid; */
+}
